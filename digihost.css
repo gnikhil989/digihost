@@ -1,0 +1,205 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+    color: black;
+    /* text-decoration: solid red; */
+
+}
+body{
+    flex-wrap: wrap;
+    background-image: url(./source/bernard-hermant-PrZw3_3xUxI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgb(131, 131, 131); */
+}
+header{
+    /* border: 1px solid white; */
+  
+    margin: auto;
+    padding: auto;
+    /* background-color: rgb(232, 240, 240); */
+}
+.input{
+    color: black;
+    width: 100px;
+}
+h1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin: auto;
+    padding: auto;
+    height: 190px;
+    color: black;
+        text-shadow: 09px 10px 10px #c6650b;
+}
+#headerimage{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+}
+p{
+    font-size: larger;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: auto;
+    background-size: cover;
+    
+    
+}
+h2{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    margin: auto;
+    padding: auto;
+    /* text-shadow: 09px 10px 10px #c6650b; */
+
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  /* border-bottom: 1px solid black; */
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    height: 400px;
+}
+#section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#shop{
+display: flex;
+justify-content: center;
+    padding: 5px;
+    height: 110px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+    /* border-bottom: 1px solid black; */
+
+}
+#Shopbutton{
+    display: flex;
+    background-color: rgb(21, 21, 21);
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+#FEATURED{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+.NewsLetter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    width: 50%;
+    margin-left: 30px;
+}
+#NewsLetter{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 45%;
+    margin-left: 0px;
+    margin: auto;
+    padding-left: 0px;
+
+}
+#leftimg{
+    width: 450px;
+    height: 550px;
+    margin: auto;
+    padding: auto;
+}
+
+#mid{
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid black; */
+    height: 150px;
+    margin: auto;
+    padding: auto;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    padding-right: 20px;
+    margin: auto;
+    padding: auto;
+    width: 350px;
+    height: 150px;
+}
+input{
+    height: 30px;
+    width: max-content;
+    color: black;
+    width: 200px;
+}
+#down{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+}
+#img{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding: auto;
+    border-radius: 5px;
+}
+#two{
+    margin-right: 100px;
+    margin: auto;
+    padding: auto;
+}
+img{
+    border-radius: 5px;
+}
+
